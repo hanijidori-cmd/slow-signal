@@ -7,10 +7,13 @@
 `.env.local` 파일을 프로젝트 루트에 만들고 아래 3개 값을 채우세요.
 (`.env.example` 참고)
 
+> 실제 키 값은 각 발급처(한국관광공사, 한국도로공사, 카카오 개발자 콘솔)에서 직접 발급받아
+> 본인 `.env.local`에만 넣으세요. 이 저장소처럼 공개된 곳에 키를 적지 마세요.
+
 ```
-KTO_API_KEY=966oXxgo6ZS9qhF6/si0SgiM0Sp4D0kTQZGh156DIDzxhtnbBb/RtRi/30IaPBDuNCwGKRGzFk6FS0MlADu2Rw==
-EX_API_KEY=3035422235
-NEXT_PUBLIC_KAKAO_JS_KEY=74a47b628e6e8dab0cdf7516946cd881
+KTO_API_KEY=<YOUR_KTO_API_KEY>
+EX_API_KEY=<YOUR_EX_API_KEY>
+NEXT_PUBLIC_KAKAO_JS_KEY=<YOUR_KAKAO_JS_KEY>
 ```
 
 ⚠️ **`NEXT_PUBLIC_KAKAO_JS_KEY`는 이름 그대로 클라이언트(브라우저)에도 노출되는 값입니다.**
